@@ -1,0 +1,22 @@
+#服务端口
+server:
+  port: 8002
+
+#服务名
+spring:
+  application:
+    name: service-oss
+#  环境设置
+  profiles:
+    active: dev
+
+#阿里云OSS相关设置
+aliyun:
+  oss:
+    endpoint:
+    url:
+    accessKeyId:
+    accessKeySecret:
+    bucketName:
+  env: dev
+
